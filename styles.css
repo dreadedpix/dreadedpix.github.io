@@ -5,6 +5,10 @@
 	margin:0px;
 }
 
+body {
+	background-color: black;
+}
+
 @font-face {
 	font-family: 'Pacifico';
 	font-style: normal;
@@ -71,12 +75,13 @@ ul a:hover {
 /*Body*/
 /*Fixed photo scroll temp*/
 #backphoto {
+	width: 100%;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 
-	background-position: 50% 50%;
+	background-position:center;
 
-	background-size: cover,contain;
+	background-size:contain;
 	height:700px;
 	border: solid black 50px;
 	border-bottom:none;
