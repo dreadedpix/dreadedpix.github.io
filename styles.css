@@ -251,7 +251,7 @@ ul a:hover {
 	}
 	
 	#backphoto {
-		height:100%;
+		height: fit-content;
 	}
 
 	#intro p {
