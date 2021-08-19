@@ -74,7 +74,7 @@ ul a:hover {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
-	height:100vh;
+	/*height:100vh;*/
 	background-size: 100% 100%;
 	border: solid black 50px;
 	border-bottom:none;
