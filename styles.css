@@ -247,8 +247,13 @@ ul a:hover {
 
 @media screen and (max-width: 400px) {
 
+	#footer h1 {
+		font-size:20px;
+	}
+
 	#backphoto h1,#footer h1 {
 		font-size:20px;
+		transform:translateY(100px);
 	}
 
 	#backphoto p {
@@ -256,7 +261,6 @@ ul a:hover {
 	}
 	
 	#backphoto {
-		height:300px;
 		border: solid black 5px;
 	}
 
