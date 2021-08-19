@@ -73,9 +73,9 @@ ul a:hover {
 #backphoto {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-size: cover;
+	/*background-size: cover;*/
 	background-size: 100% 100%;
-	height:700px;
+	height:1100px;
 	border: solid black 50px;
 	border-bottom:none;
 }
@@ -251,7 +251,7 @@ ul a:hover {
 	}
 	
 	#backphoto {
-		height: 90vh;
+		
 		border: solid black 5px;
 	}
 
