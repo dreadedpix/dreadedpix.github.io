@@ -20,10 +20,6 @@ h1 {
 	font-family: Pacifico;
 }
 
-FF {
-	font-family: 'Bangers','Arial', cursive;
-}
-
 /*Circle images*/
 #round {
 	border-radius: 50%;
@@ -32,7 +28,7 @@ FF {
 	max-width:100%;
 }
 
-/*Header*/
+/*******************Header**************************/
 #header {
 	background-color: rgb(58, 56, 56);
 }
@@ -72,7 +68,7 @@ ul a:hover {
 	color:black;
 }
 
-/*Body*/
+/***************************Body*******************/
 /*Fixed photo scroll temp*/
 #backphoto {
 	background-repeat: no-repeat;
@@ -105,7 +101,7 @@ ul a:hover {
 	background-color: black;
 }
 
-/*Footer*/
+/****************Footer*****************/
 #footer {
 	border-top:solid black 50px;
 	background-color: rgb(58, 56, 56);
@@ -122,6 +118,7 @@ ul a:hover {
 	font-size: 30px;
 }
 
+/*****************Pages*******************/
 #gallery,#booking,#about {
 	min-height:800px;
 	color:white;
@@ -146,17 +143,7 @@ ul a:hover {
 	text-align: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-/*Experiment*/
+/******************Experiment********************8*/
 #intro {
 	background-color:black;
 }
@@ -211,6 +198,7 @@ ul a:hover {
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
 }
+/********************************************************/
 
 @media screen and (max-width: 800px) {
 	#backphoto h1,footer h1 {
@@ -252,6 +240,10 @@ ul a:hover {
 
 	#backphoto p {
 		font-size:12px;
+	}
+
+	#backphoto {
+		border: solid black 5px;
 	}
 
 	#intro p {
