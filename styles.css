@@ -1,0 +1,278 @@
+/*Global*/
+* {
+	box-sizing: border-box;
+	padding: 0px;
+	margin:0px;
+}
+
+@font-face {
+	font-family: 'Pacifico';
+	font-style: normal;
+	font-weight: 400;
+	src: url(fonts/Pacifico.woff) format('woff');
+}
+
+h1 {
+	font-family: Pacifico;
+}
+
+FF {
+	font-family: 'Bangers','Arial', cursive;
+}
+
+/*Circle images*/
+#round {
+	border-radius: 50%;
+	width:200px;
+	height:200px;
+	max-width:100%;
+}
+
+/*Header*/
+#header {
+	background-color: rgb(58, 56, 56);
+}
+
+.logo img{
+	width:100px;
+	height:100px;
+}
+.navbar {
+    display:flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li {
+    display:inline-block;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+	font-size:21px;
+}
+
+ul a:hover {
+	color:black;
+}
+
+/*Body*/
+/*Fixed photo scroll temp*/
+#backphoto {
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-size: 100% 100%;
+	height:700px;
+	border: solid black 50px;
+	border-bottom:none;
+}
+
+#backphoto h1 {
+	color:white;
+	font-size: 50px;
+	text-align: center;
+	transform:translateY(300px);
+	font-family: Arial, Helvetica, sans-serif;
+	margin-bottom:30px;
+}
+
+#backphoto p {
+	color:white;
+	font-size: 20px;
+	text-align: center;
+	transform:translateY(300px);
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#backphoto span {
+	background-color: black;
+}
+
+/*Footer*/
+#footer {
+	border-top:solid black 50px;
+	background-color: rgb(58, 56, 56);
+	color:white;
+	height:350px;
+	text-align:center;
+}
+
+#footer a,p {
+	font-size: 12px;
+}
+
+#footer h1 {
+	font-size: 30px;
+}
+
+#gallery,#booking,#about {
+	min-height:800px;
+	color:white;
+	background-color: lightslategray;
+	background-image: url(images/boardwalk.png);
+	background-size: 100% 100%;
+}
+
+/*contact container*/
+#jot {
+	background-color: rgba(0,0,0,0.3);
+	width: 80%;
+	text-align: center;
+	margin: 0px auto;
+	border:solid white 2px;
+	min-height:600px;
+}
+
+#gallery h2,#booking h2,#about h2 {
+	color:white;
+	padding: 20px 0px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Experiment*/
+#intro {
+	background-color:black;
+}
+
+#intro p {
+	background-image: url(images/text.png);
+	background-size: 100% 100%;	
+	background-clip:unset ;
+	background-repeat: repeat;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	padding: 0px;
+	font-size: 100px;
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: 'Steelfish Rg', 'helvetica neue',
+			 helvetica, arial, sans-serif;
+	font-weight: 800;
+	-webkit-font-smoothing: antialiased;
+}
+
+#flasher {
+	border-bottom:solid white 5px;
+	border-top:solid white 5px;
+}
+
+#book {
+	border: solid white 3px;
+	padding:20px 0px;
+	margin-top:20px;
+	margin:20px auto;
+	width:25%;
+	background-color: rgba(0,0,0,0.8);
+}
+
+/*Animation*/
+@keyframes flash {
+	0% {background-color:black;}
+	19% {background-color:black;}
+	20% {background-color:white;}
+	21% {background-color:black;}
+	89% {background-color:black;}
+	90% {background-color:white;}
+	91% {background-color:black;}
+	100% {background-color:black;}
+}
+
+#intro {
+	animation-name: flash;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+@media screen and (max-width: 800px) {
+	#backphoto h1,footer h1 {
+		font-size:30px;
+	}
+
+	#backphoto p {
+		font-size:15px;
+	}
+
+	#intro p {
+		font-size:50px;
+	}
+
+	a {
+		font-size: 15px;
+	}
+
+	.navbar {
+		padding: 10px;
+	}
+
+	.logo img {
+		width:50px;
+		height:50px;
+	}
+
+	#footer h1 {
+		font-size: 24px;
+	}
+}
+
+
+@media screen and (max-width: 400px) {
+
+	#backphoto h1,footer h1 {
+		font-size:20px;
+	}
+
+	#backphoto p {
+		font-size:12px;
+	}
+
+	#intro p {
+		font-size:30px;
+	}
+
+	a {
+		font-size: 12px;
+	}
+
+	.navbar {
+		padding: 7px;
+	}
+
+	.logo img {
+		width:45px;
+		height:45px;
+	}
+
+	#footer h1 {
+		font-size: 20px;
+	}
+
+	nav ul li {
+		display:inline-block;
+		margin-right: 5px;
+	}
+}
