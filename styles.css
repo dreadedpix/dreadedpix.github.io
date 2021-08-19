@@ -217,6 +217,11 @@ ul a:hover {
 		font-size:15px;
 	}
 
+	#backphoto {
+		height:350px;
+		border: solid black 5px;
+	}
+
 	#intro p {
 		font-size:50px;
 	}
