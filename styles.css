@@ -251,8 +251,8 @@ ul a:hover {
 	}
 	
 	#backphoto {
-		height: 1000;
-		border: none;
+		height: 90vh;
+		border: solid black 5px;
 	}
 
 	#intro p {
