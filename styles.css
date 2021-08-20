@@ -72,7 +72,7 @@ ul a:hover {
 /*Fixed photo scroll temp*/
 #backphoto {
 	background-repeat: no-repeat;
-	background-attachment: fixed;
+	background-attachment:fixed;
 	background-size: cover;
 	/*height:100vh;*/
 	background-size: 100% 100%;
@@ -106,7 +106,7 @@ ul a:hover {
 	border-top:solid black 50px;
 	background-color: rgb(58, 56, 56);
 	color:white;
-	height:350px;
+	height:400px;
 	text-align:center;
 }
 
@@ -244,6 +244,7 @@ ul a:hover {
 
 	#backphoto {
 		border: solid black 5px;
+		background-attachment:unset;
 	}
 
 	#intro p {
